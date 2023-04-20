@@ -1,14 +1,20 @@
 {
-    "profiles": {
-        "cosmosdbchat": {
-            "commandName": "Project",
-            "launchBrowser": true,
-            "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "dotnetRunMessages": true,
-            "applicationUrl": "http://localhost:8100",
-            "hotReloadProfile": "blazorwasm"
-        }
+  "profiles": {
+    "cosmosdbchat": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:8100",
+      "hotReloadProfile": "blazorwasm"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true
     }
+  }
 }
